@@ -58,7 +58,7 @@ def user():
         print('User:', str(command))
 
         if "hai" in command:
-            api_key = "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"
+            api_key = "API_KEY"
             url = "https://api.groq.com/openai/v1/chat/completions"
             headers = {
                 "Authorization": f"Bearer {api_key}",
@@ -78,7 +78,7 @@ def user():
             if "notepad" in command:
                 os.startfile('C:\\Windows\\notepad.exe')
             if "cmd" in command:
-                os.startfile('C:\\Users\\rimur\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Command Prompt.exe')
+                os.startfile('C:\\Users\\....\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\System Tools\\Command Prompt.exe')
         elif "keluar" in command:
             print("Bot: Perintah Diterima")
             engine.say("Perintah diterima!")
